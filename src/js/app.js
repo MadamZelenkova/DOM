@@ -1,8 +1,10 @@
+import image from "./goblin.png"
+
 document.addEventListener("DOMContentLoaded", () => {
   const cells = document.querySelectorAll(".cell");
-  const enemy = document.createElement("div");  //("img") - при создании img в игре отсутствует картинка
-  //enemy.src = "./goblin.png";       //"goblin.png" тоже не видит
+  const enemy = document.createElement("img");  
   enemy.className = "goblin";
+  enemy.src = image;
 
   let currentCell = null;
 
