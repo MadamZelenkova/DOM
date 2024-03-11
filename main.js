@@ -1,0 +1,1 @@
+(()=>{"use strict";document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelectorAll(".cell"),t=document.createElement("img");t.className="goblin",t.src="2dbd01ce16c0fa83cb67.png";let n=null;setInterval((function(){const c=function(){const t=Math.floor(Math.random()*e.length);return e[t]}();c!==n&&(n=c,n.appendChild(t))}),1e3)}))})();

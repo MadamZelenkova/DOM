@@ -1,0 +1,1 @@
+import image from"./goblin.png";document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelectorAll(".cell"),n=document.createElement("img");n.className="goblin",n.src=image;let t=null;setInterval((function(){const o=function(){const n=Math.floor(Math.random()*e.length);return e[n]}();o!==t&&(t=o,t.appendChild(n))}),1e3)}));
